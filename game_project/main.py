@@ -15,6 +15,7 @@ is_running = True
 
 
 surface = pygame.Surface((100, 200))
+player_surface = pygame.Surface(())
 
 while is_running:
     for event in pygame.event.get():
