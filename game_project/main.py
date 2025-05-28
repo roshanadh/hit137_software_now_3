@@ -20,21 +20,21 @@ pygame.display.set_caption('My Game')
 
 
 # Load images for game
-RED_SPACE_SHIP = pygame.image.load('game_project/image/ship_enemy_red.png').convert_alpha()
-GREEN_SPACE_SHIP = pygame.image.load('game_project/image/ship_enemy_green.png').convert_alpha()
-BLUE_SPACE_SHIP = pygame.image.load('game_project/image/ship_enemy_blue.png').convert_alpha()
+RED_SPACE_SHIP = pygame.image.load('image/ship_enemy_red.png').convert_alpha()
+GREEN_SPACE_SHIP = pygame.image.load('image/ship_enemy_green.png').convert_alpha()
+BLUE_SPACE_SHIP = pygame.image.load('image/ship_enemy_blue.png').convert_alpha()
 
 # Player ship image
-PLAYER_SPACE_SHIP = pygame.image.load('game_project/image/player_ship.png').convert_alpha()
+PLAYER_SPACE_SHIP = pygame.image.load('image/player_ship.png').convert_alpha()
 
 # Lasers image
-RED_LASER = pygame.image.load('game_project/image/laser_red.png').convert_alpha()
-GREEN_LASER = pygame.image.load('game_project/image/laser_green.png').convert_alpha()
-BLUE_LASER = pygame.image.load('game_project/image/laser_blue.png').convert_alpha()
-YELLOW_LASER = pygame.image.load('game_project/image/laser_yellow.png').convert_alpha()
+RED_LASER = pygame.image.load('image/laser_red.png').convert_alpha()
+GREEN_LASER = pygame.image.load('image/laser_green.png').convert_alpha()
+BLUE_LASER = pygame.image.load('image/laser_blue.png').convert_alpha()
+YELLOW_LASER = pygame.image.load('image/laser_yellow.png').convert_alpha()
 
 # Background
-BG = pygame.transform.scale(pygame.image.load('game_project/image/background.png').convert_alpha(), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load('image/background.png').convert_alpha(), (WIDTH, HEIGHT))
 
 
 class Laser:
