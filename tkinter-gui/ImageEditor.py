@@ -33,6 +33,10 @@ class ImageEditor:
         # Main frame for the canvas
         canvas_frame = tk.Frame(self.root)
         canvas_frame.grid(row=0, column=0, sticky="nsew")
+
+        # instruction label
+        label_instruction = tk.Label(canvas_frame, text="Click and drag mouse to select the image", fg="black")
+        label_instruction.pack(pady=(5, 0))
         
         # Frame for controls at the bottom
         controls_frame = tk.Frame(self.root)
